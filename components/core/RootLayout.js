@@ -10,7 +10,11 @@ export default function RootLayout({ children }) {
         <header className="bg-background border-b">
           <div className="container mx-auto px-4">
             <nav className="flex items-center justify-between py-4">
-              <h1 className="text-2xl font-bold">Expense Tracker</h1>
+              <h1 className="text-2xl font-bold">
+                <a href="/" className="text-foreground hover:text-primary">
+                  Expense Tracker
+                </a>
+              </h1>
               <div className="flex gap-4">
                 <a href="/" className="text-foreground hover:text-primary">
                   Log Expense
