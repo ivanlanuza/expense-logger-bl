@@ -17,10 +17,10 @@ export default function RootLayout({ children }) {
               </h1>
               <div className="flex gap-4">
                 <a href="/" className="text-foreground hover:text-primary">
-                  Log Expense
+                  Log Expensesssss
                 </a>
                 <a href="/list" className="text-foreground hover:text-primary">
-                  View Expenses
+                  View Expensesseseses
                 </a>
                 {/*
                 <a
