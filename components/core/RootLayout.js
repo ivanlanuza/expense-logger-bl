@@ -22,12 +22,14 @@ export default function RootLayout({ children }) {
                 <a href="/list" className="text-foreground hover:text-primary">
                   View Expenses
                 </a>
+                {/*
                 <a
                   href="/charts"
                   className="text-foreground hover:text-primary"
                 >
                   Charts
                 </a>
+                */}
               </div>
             </nav>
           </div>
